@@ -132,7 +132,7 @@ table {
   src: url("/src/fonts/MonaspaceNeon-SemiWideRegular.otf");
 }
 
-/* MAIN PAGE */
+/* MAIN PAGE index.html*/
 
 body {
   background-color: #44475a;
@@ -157,7 +157,6 @@ body {
   overflow: hidden;
   background-color: #282a36;
   padding: 20px 10px;
-  border-radius: 25px;
 }
 
 .header a {
@@ -195,7 +194,9 @@ body {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .flex-container > button {
@@ -206,6 +207,7 @@ body {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  order: 5;
 }
 
 .flex-container button {
@@ -216,7 +218,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
   cursor: pointer;
   transition: 0.2s;
 }
