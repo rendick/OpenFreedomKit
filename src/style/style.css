@@ -196,7 +196,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .flex-container > button {
@@ -230,6 +229,32 @@ body {
 
 .flex-container button:hover {
   background-color: #6272a4;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #282a36;
+  padding: 20px 10px;
+}
+
+.footer-right a {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: mono;
+}
+
+.footer-right:hover{
+  background-color: #44475a;
 }
 
 /* ADAPTIVE! */
