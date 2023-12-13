@@ -274,6 +274,32 @@ body {
   background-color: #44475a;
 }
 
+/* ABOUT page */
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  padding: 90px;
+}
+
+.about p{
+  color: #ffffff;
+  font-family: mono;
+  background-color: #282a36;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 15px;
+  order: 5;
+}
+
 /* ADAPTIVE! */
 
 /* Header */
