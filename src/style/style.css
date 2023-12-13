@@ -203,9 +203,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   position: absolute;
-  top: 80%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   padding: 90px;
 }
 
@@ -273,19 +273,6 @@ body {
 .footer-right a:hover {
   background-color: #44475a;
 }
-
-/* .footer {
-  margin: 0 auto;
-  padding: 2rem;
-  background: purple;
-  color: white;
-  font-family: mono;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
-} */
-
 
 /* ADAPTIVE! */
 
