@@ -1,103 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style/style.css" />
-    <title>Email Client</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="header">
-        <a href="/index.html" class="logo">OpenFreedomKit</a>
-        <div class="header-right">
-          <a class="active pages">Email Client</a>
-          <a href="/index.html">Home</a>
-          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
-            >GitHub</a
-          >
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style/style.css" />
+  <title>Email Client</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="/index.html" class="logo">OpenFreedomKit</a>
+      <div class="header-right">
+        <a class="active pages">Email Client</a>
+        <a href="/index.html">Home</a>
+        <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
       </div>
-      <div class="main">
-        <div class="flex-container">
-          <!-- <button>
-                    <a href="https://www.thunderbird.net/en-US/">Thunderbird</a>
-                </button>
-                <button>
-                    <a href="https://email.faircode.eu/">Fairmail</a>
-                </button>
-                <button>
-                    <a href="https://k9mail.app/">K-9 Mail
-                    </a>
-                </button> -->
+    </div>
+    <div class="main">
+      <div class="flex-container">
 
-          <!-- THUNDERBIRD -->
+        <!-- THUNDERBIRD -->
 
-          <div class="card">
-            <img
-              src="/src/img/EmailClient/Thunderbird.jpg"
-              alt="thunderbird"
-              style="width: 100%"
-              width="500"
-              height="200"
-            />
-            <h1 class="title"><strong>Thunderbird</strong></h1>
-            <p class="desc">
-              Free and open source email application that lets
-              you access all your messages, calendars, and contacts in one fast
-              app.
-            </p>
-            <!-- <p>asdasd</p> -->
-            <p><button>Thunderbird</button></p>
-          </div>
-
-          <!-- K-9 MAIL -->
-
-          <div class="card">
-            <img
-              src="/src/img/Browser/PulseBrowser.jpg"
-              alt="k9mail"
-              style="width: 100%"
-              width="500"
-              height="200"
-            />
-            <h1 class="title"><strong>K-9 Mail</strong></h1>
-            <p class="desc">
-              Experimental Firefox fork that enhances focus and increases work
-              productivity
-            </p>
-            <!-- <p>asdasd</p> -->
-            <p><button>Pulse Browser</button></p>
-          </div>
-
-          <!-- FAIRMAIL -->
-
-          <div class="card">
-            <img
-              src="/src/img/Browser/qutebrowser.png"
-              alt="qutebrowser"
-              style="width: 100%"
-              width="500"
-              height="200"
-            />
-            <h1 class="title"><strong>Fairmail</strong></h1>
-            <p class="desc">Keyboard-focused browser with a minimal GUI</p>
-            <!-- <p>asdasd</p> -->
-            <p><button>Fairmail</button></p>
-          </div>
+        <div class="card">
+          <img src="/src/img/EmailClient/Thunderbird.jpg" alt="thunderbird" style="width: 100%" width="500"
+            height="200" />
+          <h1 class="title"><strong>Thunderbird</strong></h1>
+          <p class="desc">
+            Free and open source email application that lets
+            you access all your messages, calendars, and contacts in one fast
+            app.
+          </p>
+          <!-- <p>asdasd</p> -->
+          <p>
+          <form><button type="submit" formaction="https://www.thunderbird.net/en-US/">Thunderbird</button></form>
+          </p>
         </div>
-      </div>
-      <div class="footer">
-        <div class="footer-right">
-          <a href="https://github.com/AnthosLinux" target="_blank"
-            >Anthos Linux</a
-          >
-          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
-            >GitHub</a
-          >
+
+        <!-- K-9 MAIL -->
+
+        <div class="card">
+          <img src="/src/img/EmailClient/K-9Mail.png" alt="k9mail" style="width: 100%" width="500" height="200" />
+          <h1 class="title"><strong>K-9 Mail</strong></h1>
+          <p class="desc">
+            An open source email client focused on making it easy to chew through large volumes of email.
+          </p>
+          <!-- <p>asdasd</p> -->
+          <p>
+          <form><button type="submit" formaction="https://k9mail.app/">K-9 Mail</button></form>
+          </p>
+        </div>
+
+        <!-- FAIRMAIL -->
+
+        <div class="card">
+          <img src="/src/img/EmailClient/FairMail.png" alt="fairmail" style="width: 100%" width="500" height="200" />
+          <h1 class="title"><strong>FairMail</strong></h1>
+          <p class="desc">Fully featured, privacy oriented email app for Android</p>
+          <!-- <p>asdasd</p> -->
+          <p>
+          <form><button type="submit" formaction="https://email.faircode.eu/">FairMail</button></form>
+          </p>
         </div>
       </div>
     </div>
-  </body>
+    <div class="footer">
+      <div class="footer-right">
+        <a href="https://github.com/AnthosLinux" target="_blank">Anthos Linux</a>
+        <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
