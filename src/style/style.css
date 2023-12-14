@@ -188,6 +188,10 @@ body {
   color: white;
 }
 
+.header a.pages{
+  cursor: default;
+}
+
 .header a:hover {
   background-color: #44475a;
 }
