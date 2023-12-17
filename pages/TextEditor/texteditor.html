@@ -1,58 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style/style.css" />
     <title>Text Editor</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <a href="/index.html" class="logo">OpenFreedomKit</a>
-            <div class="header-right">
-                <a class="active pages">Text Editor</a>
-                <a href="/index.html">Home</a>
-                <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
-            </div>
+      <div class="header">
+        <a href="/index.html" class="logo">OpenFreedomKit</a>
+        <div class="header-right">
+          <a class="active pages">Text Editor</a>
+          <a href="/index.html">Home</a>
+          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
+            >GitHub</a
+          >
         </div>
-        <div class="main">
-            <div class="flex-container">
-                <button>
-                    <a href="https://neovim.io/">Neovim</a>
-                </button>
-                <button>
-                    <a href="https://pulsar-edit.dev/">Pulsar</a>
-                </button>
-                <button>
-                    <a href="https://vscodium.com/">VSCodium</a>
-                </button>
-                <button>
-                    <a href="https://www.gnu.org/software/emacs/">Emacs</a>
-                </button>
-                <button>
-                    <a href="https://micro-editor.github.io/">Micro</a>
-                </button>
-                <button>
-                    <a href="https://www.vim.org/">Vim</a>
-                </button>
-                <button>
-                    <a href="https://lite-xl.com/">Lite</a>
-                </button>
-                <button>
-                    <a href="https://kate-editor.org/">Kate</a>
-                </button>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="footer-right">
-                <a href="https://github.com/AnthosLinux" target="_blank">Anthos Linux</a>
-                <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </div>
-</body>
+      </div>
+      <div class="main">
+        <div class="flex-container">
+          
+          <!-- NEOVIM -->
 
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Neovim.png"
+              alt="neovim"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Neovim</strong></h1>
+            <p class="desc">
+                Modern and powerful text editor that is fully compatible with Vim and supports Lua plugins, LSP client, and remote plugins.
+            </p>
+            <p>linux, windows, macos, android</p>
+            <form>
+              <button
+                type="submit"
+                formaction="https://neovim.io/"
+              >
+                Neovim
+              </button>
+            </form>
+          </div>
+
+          <!-- Pulsar -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Pulsar.png"
+              alt="pulsar"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Pulsar</strong></h1>
+            <p class="desc">
+                Community-led, hyper-hackable text editor forked from Atom and built on Electron.
+            </p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button type="submit" formaction="https://pulsar-edit.dev/">
+                Pulsar
+              </button>
+            </form>
+          </div>
+
+          <!-- VSCodium -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/VSCodium.png"
+              alt="vscodium"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>VSCodium</strong></h1>
+            <p class="desc">
+                Community-driven, freely-licensed binary distribution of Microsoft's Visual Studio Code editor
+            </p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button type="submit" formaction="https://vscodium.com/">
+                VS Codium
+              </button>
+            </form>
+          </div>
+
+          <!-- Emacs -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Emacs.png"
+              alt="emacs"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Emacs</strong></h1>
+            <p class="desc">An extensible, customizable, free/libre text editor - and more</p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button type="submit" formaction="https://www.gnu.org/software/emacs/">
+                Emacs
+              </button>
+            </form>
+          </div>
+
+          <!-- Micro -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Micro.png"
+              alt="micro"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Micro</strong></h1>
+            <p class="desc">A modern and intuitive terminal-based text editor</p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button type="submit" formaction="https://micro-editor.github.io/">
+                Micro
+              </button>
+            </form>
+          </div>
+
+          <!-- Lite -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Lite.jpg"
+              alt="lite"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Lite</strong></h1>
+            <p class="desc">
+                A lightweight text editor written in Lua.
+            </p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button
+                type="submit"
+                formaction="https://github.com/rxi/lite"
+              >
+                Lite
+              </button>
+            </form>
+          </div>
+
+          <!-- Kate -->
+
+          <div class="card">
+            <img
+              src="/src/img/TextEditor/Kate.png"
+              alt="kate"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Kate</strong></h1>
+            <p class="desc">
+                Kate is packed with features that will make it easier for you to view and edit all your text files.
+            </p>
+            <!-- <p>asdasd</p> -->
+            <form>
+              <button
+                type="submit"
+                formaction="https://kate-editor.org"
+              >
+                Kate
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-right">
+          <a href="https://github.com/AnthosLinux" target="_blank"
+            >Anthos Linux</a
+          >
+          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

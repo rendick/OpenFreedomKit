@@ -5,13 +5,13 @@ This site has been created by a Linux enthusiast to promote free and  open sourc
 # Progress
 
 - [x] Browser
-- [ ] Text Editor
+- [x] Text Editor
 - [ ] Messaging Service
-- [ ] Email client
+- [x] Email client
 - [ ] Video Player
 - [ ] Image Viewer
 - [ ] File Manager
 - [ ] Office Suite
 - [ ] Torrent Client
-- [ ] Calendar
+- [x] Calendar
 - [ ] VPN
