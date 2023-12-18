@@ -1,52 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style/style.css" />
     <title>Messaging Service</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <a href="/index.html" class="logo">OpenFreedomKit</a>
-            <div class="header-right">
-                <a class="active pages">Messaging Service</a>
-                <a href="/index.html">Home</a>
-                <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
-            </div>
+      <div class="header">
+        <a href="/index.html" class="logo">OpenFreedomKit</a>
+        <div class="header-right">
+          <a class="active pages">Messaging Service</a>
+          <a href="/index.html">Home</a>
+          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
+            >GitHub</a
+          >
         </div>
-        <div class="main">
-            <div class="flex-container">
-                <button>
-                    <a href="https://telegram.org/">Telegram</a>
-                </button>
-                <button>
-                    <a href="https://matrix.org/try-matrix/">Matrix</a>
-                </button>
-                <button>
-                    <a href="https://signal.org/download/">Signal</a>
-                </button>
-                <button>
-                    <a href="https://www.rocket.chat/">Rocket.Chat</a>
-                </button>
-                <button>
-                    <a href="https://revolt.chat/">Revolt</a>
-                </button>
-                <button>
-                    <a href="https://vencord.dev/">Vencord</a>
-                </button>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="footer-right">
-                <a href="https://github.com/AnthosLinux" target="_blank">Anthos Linux</a>
-                <a href="https://github.com/rendick/OpenFreedomKit" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </div>
-</body>
+      </div>
+      <div class="main">
+        <div class="flex-container">
+          <!-- Telegram -->
 
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/Telegram.jpg"
+              alt="telegram"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Telegram</strong></h1>
+            <p class="desc">
+              Cloud-based mobile and desktop messaging app with a focus on
+              security and speed.
+            </p>
+            <p>Cross-platform</p>
+            <form>
+              <button type="submit" formaction="https://telegram.org/">
+                Telegram
+              </button>
+            </form>
+          </div>
+
+          <!-- Matrix -->
+
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/Matrix.jpg"
+              alt="matrix"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Matrix</strong></h1>
+            <p class="desc">
+              An open network for secure, decentralised communication
+            </p>
+            <p>Cross-platform</p>
+            <form>
+              <button type="submit" formaction="https://matrix.org/try-matrix/">
+                Matrix
+              </button>
+            </form>
+          </div>
+
+          <!-- Signal -->
+
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/Signal.jpg"
+              alt="signal"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Signal</strong></h1>
+            <p class="desc">
+              An unexpected focus on privacy, combined with all of the features
+              you expect.
+            </p>
+            <p>Cross-platform</p>
+            <form>
+              <button
+                type="submit"
+                formaction="https://www.signal.org/download/"
+              >
+                Signal
+              </button>
+            </form>
+          </div>
+
+          <!-- Vencord -->
+
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/Vencord.png"
+              alt="vencord"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Vencord</strong></h1>
+            <p class="desc">The cutest Discord client mod</p>
+            <p>Cross-platform</p>
+            <form>
+              <button type="submit" formaction="https://vencord.dev/download/">
+                Vencord
+              </button>
+            </form>
+          </div>
+
+          <!-- Rocket.Chat -->
+
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/RocketChat.png"
+              alt="rocketchat"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Rocket.Chat</strong></h1>
+            <p class="desc">Secure and compliant collaboration platform.</p>
+            <p>Cross-platform</p>
+            <form>
+              <button type="submit" formaction="https://www.rocket.chat/">
+                Rocket.Chat
+              </button>
+            </form>
+          </div>
+
+          <!-- Revolt -->
+
+          <div class="card">
+            <img
+              src="/src/img/MessagingService/Revolt.png"
+              alt="revolt"
+              style="width: 100%"
+              width="500"
+              height="200"
+            />
+            <h1 class="title"><strong>Revolt</strong></h1>
+            <p class="desc">Stay connected with friends and community without sacrificing usability. User-focused, ensuring confidential conversations and secure data.</p>
+            <p>Cross-platform</p>
+            <form>
+              <button type="submit" formaction="https://revolt.chat/">
+                Revolt
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-right">
+          <a href="https://github.com/AnthosLinux" target="_blank"
+            >Anthos Linux</a
+          >
+          <a href="https://github.com/rendick/OpenFreedomKit" target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
