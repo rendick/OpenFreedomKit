@@ -15,3 +15,8 @@ This site has been created by a Linux enthusiast to promote free and  open sourc
 - [ ] Torrent Client
 - [x] Calendar
 - [ ] VPN
+
+# TODO
+
+- Ukrainian localization
+- Adaptation
